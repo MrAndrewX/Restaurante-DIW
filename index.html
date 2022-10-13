@@ -1,407 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Badal Corner</title>
-    <link rel="icon" type="image/png" href="imgs/Logo round white.ico"/>
+    <link rel="icon" type="image/png" href="imgs/Logo round white.ico" />
     <!-- CSS only -->
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-<!-- JavaScript Bundle with Popper -->
-
-
-
-</head>
-<body>
+    <!-- JavaScript Bundle with Popper -->
+  </head>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg  navbar navbar-dark bg-dark">
-        <div class="container-fluid ">
-            <a class="navbar-brand" href="#">
-                <img src="./imgs/Logo round white.png" alt="" width="100" height="100">
-              </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fontsize-nav ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-             
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Menu
-                </a>
-                <ul class="dropdown-menu " aria-labelledby="navbarDropdown" style="background-color: #343a40;">
-                  <li><a class="dropdown-item display-4" href="#platos">Platos</a></li>
-                  <li><a class="dropdown-item display-4" href="#bebidas">Bebidas</a></li>
-                 
-                </ul>
-              </li>
-             
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#reserva">Reserva</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#encuentranos">Encuentranos</a>
-              </li>
-              
-            </ul>
-           
-          </div>
-        </div>
-      </nav>
-      <!-- Carrousel -->
-
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <video class="img-fluid" autoplay loop muted>
-                  <source src="./imgs/video.mp4" type="video/mp4" />
-                </video>
-              </div>
-          <div class="carousel-item">
-            <img src="./imgs/2.jpg" class="d-block w-100" alt="...">
-          
-          </div>
-          <div class="carousel-item">
-            <img src="./imgs/3.jpg" class="d-block w-100 reduce" alt="...">
-            
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#">
+          <img src="./imgs/Logo round white.png" alt="" width="100" height="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fontsize-nav ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown" style="background-color: #343a40;">
+                <li>
+                  <a class="dropdown-item display-4" href="#platos">Platos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item display-4" href="#bebidas">Bebidas</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#reserva">Reserva</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#encuentranos">Encuentranos</a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <!-- Menu -->
-      <div id="platos"><h1 class="display-4 text-center">Platos</h1></div>
-      <section id="gallery">
-        <div class="container">
-          <div class="row">
+    </nav>
+    <!-- Carrousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video class="img-fluid" autoplay loop muted>
+            <source src="./imgs/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/3.jpg" class="d-block w-100 reduce" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Menu -->
+    <div id="platos">
+      <h1 class="display-4 text-center">Platos</h1>
+    </div>
+    <section id="gallery">
+      <div class="container">
+        <div class="row">
           <div class="col-lg-4 mb-4">
-
-          <div class="card">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/94/05/b0/un-dia-de-chimenea.jpg" alt="" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Un día de chimenea</h5>
-              <p class="card-text">Piemientos a la parrilla, bacon, cheddar, guacamole, salsa BBQ, cebolla frita</p>
-              <span class="badge bg-secondary">11.90€</span></h5>
+            <div class="card">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/94/05/b0/un-dia-de-chimenea.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Un día de chimenea</h5>
+                <p class="card-text">Piemientos a la parrilla, bacon, cheddar, guacamole, salsa BBQ, cebolla frita</p>
+                <span class="badge bg-secondary">11.90€</span>
+                </h5>
+              </div>
             </div>
-           </div>
           </div>
-    
-        <div class="col-lg-4 mb-4">
-        <div class="card">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/b7/38/bd/badal-corner-mercat-de.jpg" alt="" class="card-img-top">
-            <div class="card-body">
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/b7/38/bd/badal-corner-mercat-de.jpg" alt="" class="card-img-top">
+              <div class="card-body">
                 <h5 class="card-title">¡Hay dios mío!</h5>
                 <p class="card-text">Foie gras, pera, huevo, cebolla caramelizada, salsa de tomate, rúcula, armesano crugiente</p>
-                <span class="badge bg-secondary">14.50€</span></h5>
-            </div>
+                <span class="badge bg-secondary">14.50€</span>
+                </h5>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/5b/48/92/photo1jpg.jpg" alt="" class="card-img-top">
-            <div class="card-body">
+            <div class="card">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/5b/48/92/photo1jpg.jpg" alt="" class="card-img-top">
+              <div class="card-body">
                 <h5 class="card-title">Toque Italiano</h5>
                 <p class="card-text">Crema de buratta, verduras antipasti, salsa de tomate, rúcula, parmesano crugiente</p>
-                <span class="badge bg-secondary">11.90€</span></h5>
+                <span class="badge bg-secondary">11.90€</span>
+                </h5>
+              </div>
             </div>
-           </div>
-           
-           
-           
           </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 mb-4">
-  
+          <div class="col-lg-4 mb-4">
             <div class="card">
               <img src="https://media-cdn.tripadvisor.com/media/photo-s/19/9e/aa/c7/20191002-190409-largejpg.jpg" alt="" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Un somni blau</h5>
                 <p class="card-text">Gorgonzola, frutas en balsamico, bacon, mostaza dulce, rúcula, nueces crujientes</p>
-                <span class="badge bg-secondary">11.90€</span></h5>
+                <span class="badge bg-secondary">11.90€</span>
+                </h5>
               </div>
-             </div>
             </div>
-      
+          </div>
           <div class="col-lg-4 mb-4">
-          <div class="card">
+            <div class="card">
               <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/85/7b/6b/photo0jpg.jpg" alt="" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Monsieur Jacque</h5>
                 <p class="card-text">Mayo de trufa, champiñones, gruyère, confit de cebolla y tomate seco, crujiente de patata, escarola</p>
-                <span class="badge bg-secondary">12.50€</span></h5>
-              </div>
+                <span class="badge bg-secondary">12.50€</span>
+                </h5>
               </div>
             </div>
-            <div class="col-lg-4 mb-4">
+          </div>
+          <div class="col-lg-4 mb-4">
             <div class="card">
               <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/66/61/4d/mmmmmdeliciosas.jpg" alt="" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Chili cheese</h5>
                 <p class="card-text">Chilli con carne, cheddar, mayonesa de aguacate y cilantro, col lombarda, mermelada de chili</p>
-                <span class="badge bg-secondary">11.90€</span></h5>
+                <span class="badge bg-secondary">11.90€</span>
+                </h5>
               </div>
-             </div>
-             
-             
-             
             </div>
           </div>
+        </div>
       </div>
-      </section>
-      <!-- Bebidas -->
-      
-      <div id="bebidas"><h1 class="display-4 text-center">Bebidas</h1></div>
-      <section id="gallery">
-        <div class="container">
-          <div class="row">
+    </section>
+    <!-- Bebidas -->
+    <div id="bebidas">
+      <h1 class="display-4 text-center">Bebidas</h1>
+    </div>
+    <section id="gallery">
+      <div class="container">
+        <div class="row">
           <div class="col-lg-4 mb-4">
-
-          <div class="card">
-            <img src="https://static.carrefour.es/hd_510x_/img_pim_food/492590_00_1.jpg" alt="" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Agua</h5>
-              <p class="card-text">Agua mineral natural</p>
-              <span class="badge bg-secondary">2.50€</span></h5>
+            <div class="card">
+              <img src="https://static.carrefour.es/hd_510x_/img_pim_food/492590_00_1.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Agua</h5>
+                <p class="card-text">Agua mineral natural</p>
+                <span class="badge bg-secondary">2.50€</span>
+                </h5>
+              </div>
             </div>
-           </div>
           </div>
-    
-        <div class="col-lg-4 mb-4">
-        <div class="card">
-            <img src="https://static.carrefour.es/hd_1500x_/img_pim_food/434683_00_1.jpg" alt="" class="card-img-top">
-            <div class="card-body">
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="https://static.carrefour.es/hd_1500x_/img_pim_food/434683_00_1.jpg" alt="" class="card-img-top">
+              <div class="card-body">
                 <h5 class="card-title">Coca Cola</h5>
                 <p class="card-text">El sabor original</p>
-                <span class="badge bg-secondary">2.90€</span></h5>
-            </div>
+                <span class="badge bg-secondary">2.90€</span>
+                </h5>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="https://static.carrefour.es/hd_510x_/img_pim_food/838571_00_2.jpg" alt="" class="card-img-top">
-            <div class="card-body">
+            <div class="card">
+              <img src="https://static.carrefour.es/hd_510x_/img_pim_food/838571_00_2.jpg" alt="" class="card-img-top">
+              <div class="card-body">
                 <h5 class="card-title">Sidra - Ladrón de manzanas</h5>
                 <p class="card-text">La sidra más dulce</p>
-                <span class="badge bg-secondary">3€</span></h5>
+                <span class="badge bg-secondary">3€</span>
+                </h5>
+              </div>
             </div>
-           </div>
-           
-           
-           
           </div>
         </div>
-   
       </div>
-      </section>
-      <!-- Reserva -->
-      <div id="reserva"><h1 class="display-4 text-center">Reserva</h1></div>
-      <div class="container">
-        <div class="row ">
-            <div class="col-lg-7 mx-auto">
-              <div class="card mt-2 mx-auto p-4 bg-light">
-                  <div class="card-body bg-light">
-             
-                  <div class = "container">
-                                   <form id="contact-form" role="form">
-      
-                  
-      
+    </section>
+    <!-- Reserva -->
+    <div id="reserva">
+      <h1 class="display-4 text-center">Reserva</h1>
+    </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-7 mx-auto">
+          <div class="card mt-2 mx-auto p-4 bg-light">
+            <div class="card-body bg-light">
+              <div class="container">
+                <form id="contact-form" role="form">
                   <div class="controls">
-      
-                      <div class="row">
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                  <label for="form_name">Nombre *</label>
-                                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Badal*" required="required" data-error="Obligatorio este campo">
-                                  
-                              </div>
-                          </div>
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                  <label for="form_lastname">Apellido *</label>
-                                  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Corner *" required="required" data-error="Lastname is required.">
-                                                                  </div>
-                          </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_name">Nombre *</label>
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Badal*" required="required" data-error="Obligatorio este campo">
+                        </div>
                       </div>
-                      <div class="row">
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                  <label for="form_email">Email *</label>
-                                  <input id="form_email" type="email" name="email" class="form-control" placeholder="badal@corner.es" required="required" data-error="Valid email is required.">
-                                  
-                              </div>
-                          </div>
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                  <label for="form_need">Fecha y hora de reserva *</label>
-                                  <input type="date"/>
-                                  <input type="time"/>
-                                  
-                              </div>
-                          </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_lastname">Apellido *</label>
+                          <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Corner *" required="required" data-error="Lastname is required.">
+                        </div>
                       </div>
-                      <div class="row">
-                          <div class="col-md-12">
-                              <div class="form-group">
-                                  <label for="form_message">Comentarios adicionales</label>
-                                  <textarea id="form_message" name="message" class="form-control" placeholder="Escribe tu mensaje aqui" rows="4" required="required" data-error="Please, leave us a message."></textarea
-                                      >
-                                  </div>
-      
-                              </div>
-      
-      
-                          <div class="col-md-12">
-                              
-                              <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
-                                  " value="Enviar" >
-                          
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_email">Email *</label>
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="badal@corner.es" required="required" data-error="Valid email is required.">
+                        </div>
                       </div>
-                
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_need">Fecha y hora de reserva *</label>
+                          <input type="date" />
+                          <input type="time" />
+                        </div>
                       </div>
-      
-      
-              </div>
-               </form>
-              </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="form_message">Comentarios adicionales</label>
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Escribe tu mensaje aqui" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
+                                  " value="Enviar" onclick="sendGETformToServer()">
+                      </div>
+                    </div>
                   </div>
-      
-      
+                </form>
+              </div>
+            </div>
           </div>
-              <!-- /.8 -->
-      
-          </div>
-          <!-- /.row-->
-      
-      </div>
-    
-    </div>
-
-<!-- Mapa -->
-<div id="encuentranos"><h1 class="display-4 text-center">Encuentranos</h1></div>
-<div class="container">
-    <div class="row justify-content-md-center">
-        <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Badal%20Cortner%20Palma+(Badal%20Cortner)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-
-    </div>
-    <p class="text-white" style="margin-top: 1%; font-size: 15px;">Plaça del Comtat del Rosselló, 7, 07002 Palma, Illes Balears</p>
-</div>
-
-    
-
-
-    <!-- Footer -->
-<!-- Footer -->
-<footer class="bg-dark text-center text-white" style="margin-top: 5%;">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-       
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/badalcorner/" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-  
-       
-
-  
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/badalcorner/?hl=es" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-
-     
-      </section>
-      <!-- Section: Social media -->
-  
-     
-     
-  
-      <!-- Section: Text -->
-      <section class="mb-4">
-
-      </section>
-      <!-- Section: Text -->
-  
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row">
-    
-          <!--Grid column-->
-          <div class="row justify-content-md-center">
-            <h5 class="text-uppercase">Horario</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-            </li>
-            <p class="text-white">Domingo - Lunes: Cerrado</p>
-             
-              <li>
-                <p class="text-white">Martes: 13:00-22:30</p>
-              </li>
-              <li>
-                <p class="text-white">Miercoles: 13:00-22:30</p>
-              </li>
-              <li>
-                <p class="text-white">Jueves: 13:00-22:30</p>
-              </li>
-              <li>
-                <p class="text-white">Viernes: 13:00-22:30</p>
-              </li>
-              <li>
-                <p class="text-white">Sabado: 13:00-22:30</p>
-              </li>
-              <li>
-                <p class="text-white">  <h5 class="text-uppercase">Contacto</h5> <br>+34 871238462 <br> info@badalcorner.com</p>
-                
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-      
-          <!--Grid column-->
+          <!-- /.8 -->
         </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
+        <!-- /.row-->
+      </div>
     </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright:
-      <p class="text-white">Andrés Pantoja</p>
+    <!-- Mapa -->
+    <div id="encuentranos">
+      <h1 class="display-4 text-center">Encuentranos</h1>
     </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-
-  <script src="https://kit.fontawesome.com/ab247f2890.js" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
-</body>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Badal%20Cortner%20Palma+(Badal%20Cortner)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      </div>
+      <p class="text-white" style="margin-top: 1%; font-size: 15px;">Plaça del Comtat del Rosselló, 7, 07002 Palma, Illes Balears</p>
+    </div>
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white" style="margin-top: 5%;">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/badalcorner/" role="button">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/badalcorner/?hl=es" role="button">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </section>
+        <!-- Section: Social media -->
+        <!-- Section: Text -->
+        <section class="mb-4"></section>
+        <!-- Section: Text -->
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="row justify-content-md-center">
+              <h5 class="text-uppercase">Horario</h5>
+              <ul class="list-unstyled mb-0">
+                <li></li>
+                <p class="text-white">Domingo - Lunes: Cerrado</p>
+                <li>
+                  <p class="text-white">Martes: 13:00-22:30</p>
+                </li>
+                <li>
+                  <p class="text-white">Miercoles: 13:00-22:30</p>
+                </li>
+                <li>
+                  <p class="text-white">Jueves: 13:00-22:30</p>
+                </li>
+                <li>
+                  <p class="text-white">Viernes: 13:00-22:30</p>
+                </li>
+                <li>
+                  <p class="text-white">Sabado: 13:00-22:30</p>
+                </li>
+                <li>
+                  <p class="text-white">
+                  <h5 class="text-uppercase">Contacto</h5>
+                  <br>+34 871238462 <br> info@badalcorner.com </p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2022 Copyright: <p class="text-white">Andrés Pantoja</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="https://kit.fontawesome.com/ab247f2890.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Boostrap complementary plugins -->
+    <script src="app.js"></script>
+  </body>
 </html>
